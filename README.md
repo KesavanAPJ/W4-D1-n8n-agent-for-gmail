@@ -8,9 +8,12 @@ Manual Trigger → Gmail (Get Many, Unread, Limit 5) → AI Agent (+ OpenAI Chat
 ## Files
 - `Week4_Day1_n8n_Gmail_AI_Agent.pdf` — assignment brief
 - `Unread_Email_Summariser.json` — exported n8n workflow (import via *Import from File*)
-- `workflow-screenshot.png` — workflow canvas
+- `workflow-screenshot.jpg` — workflow canvas
 
 ## Setup after import
 1. Select your Gmail OAuth2 credential on both Gmail nodes.
 2. Select your OpenAI credential on the chat model node.
 3. Set your own address in the **Send Summary Email** node.
+
+## Screenshot
+![Workflow canvas](workflow-screenshot.jpg)
